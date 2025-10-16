@@ -2,8 +2,7 @@
 # 📘 Data Fundamentals Final Project
 
 ## 1. Project Overview
-This project was created as part of the Data Fundamentals course.  
-It demonstrates how to design a relational database, implement user roles, apply security policies, and create admin functions using *Supabase*.
+This project  demonstrates how to design a relational database, implement user roles, apply security policies, and create admin functions using *Supabase*.
 
 The project includes three main tables that are linked together through relationships to represent real-world data interactions.
 
@@ -24,7 +23,8 @@ The project includes three main tables that are linked together through relation
 ### ERD Diagram
 Below is the Entity Relationship Diagram (ERD) that shows how the tables are related:
 
-![ERD Diagram](docs/erd_diagram.png)
+<img width="373" height="456" alt="image" src="https://github.com/user-attachments/assets/a041a1d8-9607-468f-aef6-eda8045129c7" />
+
 
 ---
 
@@ -104,12 +104,12 @@ Example records inserted into the tables for testing:
 
 -- Students
 INSERT INTO students (id, name, email) VALUES
-(1, 'John Doe', 'john@example.com'),
-(2, 'Jane Smith', 'jane@example.com');
+(1, 'Yvonne Muli', 'yvonne@example.com'),
+(2, 'Joy Smith', 'joy@example.com');
 
 -- Courses
 INSERT INTO courses (id, course_name, instructor) VALUES
-(1, 'Database Fundamentals', 'Dr. Kimani'),
+(1, 'Database Fundamentals', 'Dr. Joy'),
 (2, 'Data Visualization', 'Prof. Atieno');
 
 -- Enrollments
@@ -120,7 +120,7 @@ INSERT INTO enrollments (id, student_id, course_id) VALUES
 
 How to set up the project
 1.Clone this repository
-git clone https://github.com/<your-username>/<repo-name>.git
+git clone https://github.com/<yvonne-muli>/<data-fundamentals-final-project>.git
 
 2.Open your supabase project
 3.Go to the SQL Editor
@@ -137,10 +137,7 @@ Security Notes
 Author
 
 Name: Yvonne Muli
-Course: Data Fundamentals (2025)
-Institution: [Your institution’s name]
-Project Type: Supabase Database Security and Design
-
+Linkedin:
 
 
 
