@@ -1,7 +1,7 @@
 # Data Dictionary
 
 ## Project Overview
-This  represents a simple school management system that tracks students, the courses they take, and their enrollments.  
+This project represents a simple school management system that tracks students, the courses they take, and their enrollments.  
 The database includes three main tables: *Students, **Courses, and **Enrollment*, each with sample data to demonstrate relationships.
 
 ---
