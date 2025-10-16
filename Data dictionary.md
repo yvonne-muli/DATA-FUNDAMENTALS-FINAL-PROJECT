@@ -1,8 +1,7 @@
 # Data Dictionary
 
 ## Project Overview
-This database was created for the *Data Tools Final Project*.  
-It represents a simple school management system that tracks students, the courses they take, and their enrollments.  
+This  represents a simple school management system that tracks students, the courses they take, and their enrollments.  
 The database includes three main tables: *Students, **Courses, and **Enrollment*, each with sample data to demonstrate relationships.
 
 ---
