@@ -3,9 +3,6 @@
 -- Create schema
 CREATE SCHEMA School;
 
--- ========================================
--- STUDENTS TABLE
--- ========================================
 CREATE TABLE School.Students (
   student_id SERIAL PRIMARY KEY,
   first_name TEXT,
@@ -22,9 +19,7 @@ VALUES
 (4,'Cate','Mwende','mwendecate@gmail.com','Female'),
 (5,'Ann','Mueni','mueniann@gmail.com','Female');
 
--- ========================================
--- COURSES TABLE
--- ========================================
+
 CREATE TABLE School.Courses (
   course_id SERIAL PRIMARY KEY,
   course_name VARCHAR(100) NOT NULL,
@@ -39,9 +34,7 @@ VALUES
 (4, 'Biology', 2),
 (5, 'Computer Science', 5);
 
--- ========================================
--- ENROLLMENT TABLE
--- ========================================
+
 CREATE TABLE School.Enrollment (
   enrollment_id SERIAL PRIMARY KEY,
   student_id INT REFERENCES School.Students(student_id),
@@ -54,9 +47,7 @@ VALUES
 (2, 2, 1),
 (3, 3, 3);
 
--- ========================================
--- USERS TABLE (for Role-Based Access Control)
--- ========================================
+
 CREATE TABLE School.Users (
   id UUID PRIMARY KEY DEFAULT gen_random_uuid(),
   email TEXT UNIQUE NOT NULL,
